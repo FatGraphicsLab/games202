@@ -10,7 +10,10 @@
 
 ```
 [machinery]      homework making with TheMachinery
-[shadered]       homework working in SHADERed
+[SHADERed]       homework working in SHADERed
+[tools]          copy of machinery & SHADERed binary
+  [machinery]
+  [SHADERed]
 ```
 
 
