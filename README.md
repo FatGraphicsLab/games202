@@ -9,8 +9,12 @@
 ## Directory Layout
 
 ```
-[machinery]      homework making with TheMachinery
-[SHADERed]       homework working in SHADERed
+[homework0]
+  [machinery]    homework making with TheMachinery
+  [SHADERed]     homework making with SHADERed
+[homework1]
+[homework2]
+...
 [tools]          copy of machinery & SHADERed binary
   [machinery]
   [SHADERed]
