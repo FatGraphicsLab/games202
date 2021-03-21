@@ -22,6 +22,13 @@
 
 
 
+## SHADERed
+
+* [tutorial][4]
+
+
+
 [1]:https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html
 [2]:https://shadered.org/
 [3]:https://ourmachinery.com/
+[4]:https://shadered.org/docs/tutorials.html

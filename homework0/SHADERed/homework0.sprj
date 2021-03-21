@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project version="2">
 	<pipeline>
-		<pass name="Simple" type="shader" active="true" patchverts="1">
+		<pass name="Simple" type="shader" active="false" patchverts="1">
 			<shader type="vs" path="shaders\SimpleVS.hlsl" entry="main" />
 			<shader type="ps" path="shaders\SimplePS.hlsl" entry="main" />
 			<inputlayout>
@@ -39,22 +39,30 @@
 				<item name="Mary" type="model">
 					<filepath>assets\mary\Marry.obj</filepath>
 					<grouponly>false</grouponly>
+					<y>-1.92396474</y>
 				</item>
 			</items>
 			<itemvalues />
+			<variables>
+				<variable type="float4x4" name="matVP" system="ViewProjection" />
+				<variable type="float4x4" name="matGeo" system="GeometryTransform" />
+			</variables>
 			<macros />
 		</pass>
 	</pipeline>
-	<objects />
+	<objects>
+		<object type="texture" path="myprj\FatGraphicsLab\games202\homework0\SHADERed\assets\mary\MC003_Kozakura_Mari.png" vflip="false" min_filter="Linear" mag_filter="Nearest" wrap_s="Repeat" wrap_t="Repeat">
+			<bind slot="0" name="PhongMaterial" />
+		</object>
+	</objects>
 	<cameras />
 	<settings>
-		<entry type="property" name="PhongMaterial" item="pipe" />
-		<entry type="file" name="Simple" shader="vs" />
-		<entry type="file" name="Simple" shader="ps" />
+		<entry type="file" name="PhongMaterial" shader="vs" />
+		<entry type="file" name="PhongMaterial" shader="ps" />
 		<entry type="camera" fp="false">
-			<distance>10</distance>
-			<pitch>16</pitch>
-			<yaw>213</yaw>
+			<distance>6</distance>
+			<pitch>15</pitch>
+			<yaw>202</yaw>
 			<roll>360</roll>
 		</entry>
 		<entry type="clearcolor" r="0" g="0" b="0" a="1" />
