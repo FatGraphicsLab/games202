@@ -53,13 +53,13 @@ Collapsed=0
 Pos=401,619
 Size=1200,381
 Collapsed=0
-DockId=0x00000006,1
+DockId=0x00000006,2
 
 [Window][###code_viewPS0]
 Pos=401,619
 Size=1200,381
 Collapsed=0
-DockId=0x00000006,2
+DockId=0x00000006,1
 
 [Window][###code_viewGS0]
 Pos=276,584
@@ -176,12 +176,12 @@ Size=700,410
 Collapsed=0
 
 [Window][Delete##pui_item_delete]
-Pos=60,60
-Size=423,127
+Pos=62,60
+Size=500,150
 Collapsed=0
 
 [Window][###SaveProjectDlg]
-Pos=588,279
+Pos=591,279
 Size=755,540
 Collapsed=0
 
@@ -230,7 +230,7 @@ Collapsed=0
 DockId=0x0000001D,1
 
 [Window][Create Item##main_create_item]
-Pos=630,313
+Pos=633,313
 Size=662,375
 Collapsed=0
 
@@ -245,22 +245,22 @@ Size=500,218
 Collapsed=0
 
 [Window][###PropertyShaderDlg]
-Pos=663,300
+Pos=666,300
 Size=600,400
 Collapsed=0
 
 [Window][###CreateMeshDlg]
-Pos=663,300
+Pos=667,300
 Size=600,400
 Collapsed=0
 
 [Window][Create Item##pui_create_item]
-Pos=696,391
+Pos=700,391
 Size=537,218
 Collapsed=0
 
 [Window][###CreateTextureDlg]
-Pos=660,300
+Pos=663,300
 Size=600,400
 Collapsed=0
 
